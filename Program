@@ -1,0 +1,11 @@
+using Сryptography;
+
+int NUM = 2;
+
+string s = SimpleEncrypt.Encrypt("12345", NUM);
+
+Console.WriteLine(s);
+
+Console.WriteLine();
+
+Console.WriteLine(SimpleEncrypt.Decrypt(s, NUM));
